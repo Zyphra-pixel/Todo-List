@@ -1,17 +1,71 @@
-# to_do_list_pro
+# ✅ To-Do List Pro
 
-A new Flutter project.
+A clean and responsive **Flutter To-Do application** that helps users organize daily tasks with persistent local storage. The app supports task creation, editing, deletion, completion tracking, and dark mode, with all data saved locally using SharedPreferences.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- ➕ Add new tasks
+- ✏️ Edit existing tasks
+- ❌ Delete tasks
+- ☑️ Mark tasks as completed
+- 💾 Persistent local storage using SharedPreferences
+- 🌙 Light & Dark mode
+- 🎨 Clean and responsive Material Design UI
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Screenshots
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+<p align="center">
+  <img src="screenshots/light_home.jpeg" width="220"/>
+  <img src="screenshots/dark_home.jpeg" width="220"/>
+  <img src="screenshots/edit_task.jpeg" width="220"/>
+</p>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- Flutter
+- Dart
+- SharedPreferences
+- Material Design
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/zohras0112-ux/to_do_list_pro.git
+```
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the application:
+
+```bash
+flutter run
+```
+
+## 📂 Project Structure
+
+```text
+lib/
+├── data/
+│   └── preference.dart
+├── models/
+│   └── task.dart
+├── views/
+│   ├── pages/
+│   │   ├── home_page.dart
+│   │   └── widget_tree.dart
+│   └── widgets/
+│       ├── add_task_widget.dart
+│       ├── edit_task_widget.dart
+│       └── task_tile.dart
+└── main.dart
+```
+
+## 📄 License
+
+This project was built for learning, portfolio, and educational purposes.

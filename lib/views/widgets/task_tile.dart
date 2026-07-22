@@ -38,7 +38,6 @@ class TaskTile extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             IconButton(onPressed: onEdit, icon: const Icon(Icons.edit)),
-            const SizedBox(width: 8),
             IconButton(onPressed: onDelete, icon: const Icon(Icons.close)),
           ],
         ),
