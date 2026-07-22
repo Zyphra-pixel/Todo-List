@@ -52,9 +52,10 @@ flutter run
 ```text
 lib/
 ├── data/
-│   └── preference.dart
-├── models/
-│   └── task.dart
+│   ├── service/
+|   |    ├── preference.dart
+|   ├── models/
+│       ├── task.dart
 ├── views/
 │   ├── pages/
 │   │   ├── home_page.dart
